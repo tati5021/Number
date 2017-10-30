@@ -1,3 +1,9 @@
+#This 'prime.py' module simply lists all the prime numbers.
+#First it prompts the user to enter a number. 
+# Then the entered number which is actually a string is 
+#converted to the integer.Then the prime(num) function is called 
+#which finds all the prime numbers upto the entered number on the screen
+
 def prime(num):
 	p = 2
 	while p**2 <= input:
